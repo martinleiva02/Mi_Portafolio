@@ -118,9 +118,27 @@ La maquetación se realizó con Flexbox y los estilos con CSS personalizado.</p>
                 </div> 
             </div>
         </section>
-        <section class="section_contacto"></section>
+        <section class="section_contacto">
+            <div class="intro-contacto">
+                <p>¿Querés ponerte en contacto conmigo?
+                    Completá el formulario y te responderé a la brevedad.
+                </p>
+            </div>
+            <form>
+                <h2>Contacto</h2> 
+                <label for="nombre">Nombre</label> 
+                <input type="text" id="nombre" name="nombre" required> 
+                <label for="email">Email</label> 
+                <input type="email" id="email" name="email" required> 
+                <label for="mensaje">Mensaje</label> 
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> 
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
+        © 2025 - Martin Leiva. Todos los derechos reservados.
+        Sitio creado como parte de una práctica de desarrollo web.
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
