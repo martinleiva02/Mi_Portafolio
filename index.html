@@ -7,6 +7,9 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,16 +22,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+          <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre mi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Proyectos</a>
+          <a class="nav-link" href="#Proyectos">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Habilidades</a>
+          <a class="nav-link" href="#Habilidades">Habilidades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#Contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -41,7 +44,7 @@
     <main>
         <section class="section_inicio">
             <div class="container-img">
-                <img src="./img/img1.png" alt="#" style="width: 80%;" >
+                <img src="./img/imagen-inicio.png" alt="#" width="80%">
             </div>
             <div class="container-parrafo">
                 <p>¡Hola! Soy Martin Leiva,
@@ -49,7 +52,7 @@ estudiante de programación con muchas ganas de aprender y crecer en el mundo de
 Este es mi portfolio, donde comparto un poco sobre mí y mis proyectos. ¡Gracias por visitar!</p>
             </div>
         </section>
-        <section class="section_sobremi">
+        <section class="section_sobremi" id="sobreMi">
             <div class="container-sobremi">
                 <img src="./img/sobremi.jpg" alt="" width="300px">
                 <p>Me llamo Martin Leiva, tengo 22 años y actualmente estoy estudiando la carrera de Front-end con React.
@@ -57,7 +60,7 @@ Me apasiona el desarrollo web y estoy aprendiendo tecnologías como HTML, CSS, J
 Soy una persona curiosa, responsable y con muchas ganas de seguir mejorando en cada proyecto</p>
             </div>
         </section>
-        <section class="section_proyectos">
+        <section class="section_proyectos" id="Proyectos">
             <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card">
@@ -81,7 +84,7 @@ La maquetación se realizó con Flexbox y los estilos con CSS personalizado.</p>
   </div>
 </div>
         </section>
-        <section class="section_habilidades">
+        <section class="section_habilidades" id="Habilidades">
             <div class="intro"> <p> Soy desarrollador web en formación. Me apasiona crear interfaces limpias, responsivas y modernas. Estas son algunas de las tecnologías y herramientas que manejo y sigo aprendiendo día a día: </p> </div> 
             <h2>Lenguajes</h2> 
             <div class="skills"> 
@@ -118,7 +121,7 @@ La maquetación se realizó con Flexbox y los estilos con CSS personalizado.</p>
                 </div> 
             </div>
         </section>
-        <section class="section_contacto">
+        <section class="section_contacto" id="Contacto">
             <div class="intro-contacto">
                 <p>¿Querés ponerte en contacto conmigo?
                     Completá el formulario y te responderé a la brevedad.
