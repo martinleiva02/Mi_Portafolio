@@ -29,7 +29,6 @@ body{
 .section_sobremi{
     margin-top: 20px;
     width: 80%;
-    height: 500px;
 }
 .container_sobremi{
     display: flex;
@@ -72,12 +71,13 @@ body{
 } 
 .container_habilidades { 
     display: flex;
-    flex-wrap: wrap; /* Para que los elementos bajen si no entran */ 
+    flex-wrap: wrap;
     justify-content: center; 
     gap: 20px; 
 } 
 .iconos { 
-    flex: 1 1 200px; /* Cada caja ocupa mínimo 200px */ max-width: 220px; 
+    flex: 1 1 200px; 
+    max-width: 220px; 
     background: rgb(207, 95, 15); 
     border-radius: 10px; 
     padding: 20px; 
@@ -90,7 +90,7 @@ body{
 .iconos i { 
     font-size: 40px; 
     margin-bottom: 10px; 
-    color: #044774; /* Azul base */ 
+    color: #044774;
 } 
 .iconos h3 { 
     margin: 0; 
@@ -154,4 +154,29 @@ footer .container_footer{
     display: flex;
     justify-content: center;
     align-items:center;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 480px){
+    .section_sobremi{
+    width: 100%;
+}
+.container_sobremi{
+    flex-direction: column;
+}
+.img_sobremi{
+    width: 200px;
+    height: auto;
+}
+.container_sobremi p{
+    margin: auto 30px;
+    font-size: 17px;
+}
+.parrafo_contacto{
+    margin: auto 40px;
+}
+footer p{
+    font-size: 14px;
+    margin: auto 20px;
+}
 }
