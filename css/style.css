@@ -145,7 +145,7 @@ footer{
     margin-top: 20px;
 }
 footer p{
-    font-size: 1em;
+    font-size: 20px;
     margin: 0;
     color:black;
 }
@@ -178,5 +178,26 @@ footer .container_footer{
 footer p{
     font-size: 14px;
     margin: auto 20px;
+}
+}
+
+/*TABLE*/
+@media screen and (min-width: 481px) and (max-width: 1022px) {
+    .section_sobremi{
+    width: 100%;
+}
+.container_sobremi{
+    flex-direction: column;
+}
+.img_sobremi{
+    width: 300px;
+    height: auto;
+}
+.container_sobremi p{
+    margin: 0 auto 30px;
+    font-size: 22px;
+}
+.parrafo_contacto{
+    margin: auto 40px;
 }
 }
