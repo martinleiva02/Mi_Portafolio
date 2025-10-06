@@ -47,36 +47,111 @@ body{
     font-size: 26px;
     font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*SECTION PROYECTOS*/
+.section_proyectos{
+    margin: 20px;
+}
+.section_proyectos .card-body{
+    background-color: rgb(207, 95, 15);
+}
+.section_proyectos a{
+    display: block;
+}
 /*SECTION HABILIDADES*/
-
-
-.intro { max-width: 700px; margin: 0 auto 40px; text-align: center; font-size: 18px; line-height: 1.5; } h2 { text-align: center; margin: 40px 0 20px; font-size: 24px; } .skills { display: flex; flex-wrap: wrap; /* Para que los elementos bajen si no entran */ justify-content: center; gap: 20px; } .skill { flex: 1 1 200px; /* Cada caja ocupa mínimo 200px */ max-width: 220px; background: white; border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s; } .skill:hover { transform: translateY(-5px); } .skill i { font-size: 40px; margin-bottom: 10px; color: #007acc; /* Azul base */ } .skill h3 { margin: 0; font-size: 18px; }
-
-/*FORMULARIO*/
-form { background: white; padding: 20px; max-width: 400px; margin: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); } label { display: block; margin: 10px 0 5px; } input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; } button { background: #007acc; color: white; border: none; padding: 12px; width: 100%; font-size: 16px; border-radius: 5px; cursor: pointer; } button:hover { background: #005f99; }
+.parrafo_habilidades { 
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+} 
+.section_habilidades h2 { 
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 24px;
+} 
+.container_habilidades { 
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos bajen si no entran */ 
+    justify-content: center; 
+    gap: 20px; 
+} 
+.iconos { 
+    flex: 1 1 200px; /* Cada caja ocupa mínimo 200px */ max-width: 220px; 
+    background: rgb(207, 95, 15); 
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    transition: transform 0.2s; 
+} 
+.iconos:hover { transform: translateY(-5px); 
+} 
+.iconos i { 
+    font-size: 40px; 
+    margin-bottom: 10px; 
+    color: #044774; /* Azul base */ 
+} 
+.iconos h3 { 
+    margin: 0; 
+    font-size: 18px; 
+}
+/*SECTION CONTACTO*/
+.section_contacto{
+    margin-top: 40px;
+}
+.parrafo_contacto{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-size: 20px;
+}
+form { 
+    background: rgb(147, 132, 132); 
+    padding: 20px; 
+    max-width: 400px; 
+    margin: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+} 
+label { 
+    display: block; 
+    margin: 10px 0 5px; 
+} 
+input, textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; 
+} 
+button { 
+    background: #040405; 
+    color: white; 
+    border: none; 
+    padding: 12px; 
+    width: 100%; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+} 
+button:hover { 
+    background: #005f99; 
+}
+/*FOOTER*/
+footer{
+    background-color:#878686;
+    margin-top: 20px;
+}
+footer p{
+    font-size: 1em;
+    margin: 0;
+    color:black;
+}
+footer .container_footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

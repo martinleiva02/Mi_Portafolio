@@ -58,67 +58,69 @@
         </section>
         <section class="section_proyectos" id="Proyectos">
             <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Proyecto 1 -Paginas de Recetas</h5>
-        <p class="card-text">Una página web simple donde los usuarios pueden ver recetas, ingredientes y pasos para cocinar.
-La maquetación se realizó con Flexbox y los estilos con CSS personalizado.</p>
-        <a href="#" class="btn btn-primary">Ver más</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Proyecto 2 - Calculadora Web</h5>
-        <p class="card-text">Una calculadora funcional hecha con JavaScript. 
-            El diseño se adaptó con Bootstrap, y se aplicaron estilos propios para darle un toque moderno.</p>
-        <a href="#" class="btn btn-primary">Ver más</a>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1 -Paginas de Recetas</h5>
+                            <p class="card-text">Una página web simple donde los usuarios pueden ver recetas, ingredientes y pasos para cocinar.
+                            La maquetación se realizó con Flexbox y los estilos con CSS personalizado.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2 - Calculadora Web</h5>
+                            <p class="card-text">Una calculadora funcional hecha con JavaScript. 
+                            El diseño se adaptó con Bootstrap, y se aplicaron estilos propios para darle un toque moderno.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section_habilidades" id="Habilidades">
-            <div class="intro"> <p> Soy desarrollador web en formación. Me apasiona crear interfaces limpias, responsivas y modernas. Estas son algunas de las tecnologías y herramientas que manejo y sigo aprendiendo día a día: </p> </div> 
+            <div class="parrafo_habilidades"> 
+                <p> Soy desarrollador web en formación. Me apasiona crear interfaces limpias, responsivas y modernas. Estas son algunas de las tecnologías y herramientas que manejo y sigo aprendiendo día a día: </p> 
+            </div> 
             <h2>Lenguajes</h2> 
-            <div class="skills"> 
-                <div class="skill"> 
+            <div class="container_habilidades"> 
+                <div class="iconos"> 
                     <i class="fa-brands fa-html5"></i> 
                 <h3>HTML5</h3> 
             </div> 
-            <div class="skill"> 
+            <div class="iconos"> 
                 <i class="fa-brands fa-css3-alt"></i>
                 <h3>CSS3</h3> 
             </div> 
-            <div class="skill"> 
+            <div class="iconos"> 
                 <i class="fa-brands fa-js"></i> 
                 <h3>JavaScript</h3> 
                 </div> 
             </div> 
             <h2>Herramientas</h2> 
-            <div class="skills"> 
-                <div class="skill"> 
+            <div class="container_habilidades"> 
+                <div class="iconos"> 
                     <i class="fa-brands fa-git-alt"></i> 
                     <h3>Git / GitHub</h3> 
                 </div> 
-                <div class="skill"> 
+                <div class="iconos"> 
                     <i class="fa-solid fa-code"></i> 
                     <h3>VS Code</h3> 
                 </div> 
-                <div class="skill"> 
+                <div class="iconos"> 
                     <i class="fa-brands fa-bootstrap"></i> 
                     <h3>Bootstrap</h3> 
                 </div> 
-                <div class="skill"> 
+                <div class="iconos"> 
                     <i class="fa-solid fa-layer-group"></i> 
                     <h3>Flexbox / CSS Grid</h3> 
                 </div> 
             </div>
         </section>
         <section class="section_contacto" id="Contacto">
-            <div class="intro-contacto">
+            <div class="parrafo_contacto">
                 <p>¿Querés ponerte en contacto conmigo?
                     Completá el formulario y te responderé a la brevedad.
                 </p>
@@ -126,19 +128,22 @@ La maquetación se realizó con Flexbox y los estilos con CSS personalizado.</p>
             <form>
                 <h2>Contacto</h2> 
                 <label for="nombre">Nombre</label> 
-                <input type="text" id="nombre" name="nombre" required> 
+                <input type="text" id="nombre" name="nombre" placeholder="name..." required> 
                 <label for="email">Email</label> 
-                <input type="email" id="email" name="email" required> 
+                <input type="email" id="email" name="email" placeholder="Email..."> 
                 <label for="mensaje">Mensaje</label> 
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> 
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="deja tu mensaje..." required></textarea> 
                 <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
     <footer>
-        © 2025 - Martin Leiva. Todos los derechos reservados.
-        Sitio creado como parte de una práctica de desarrollo web.
-    </footer>
+        <div class="container_footer">
+            <p>
+                © 2025 - Martin Leiva. Todos los derechos reservados.Sitio creado como parte de una práctica de desarrollo web.
+            </p>
+        </div>
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
